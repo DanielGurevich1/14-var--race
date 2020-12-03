@@ -1,0 +1,30 @@
+body, 
+body {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/racing_road_game_background_game_assets_dribbble.png);
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+
+.car {
+    display: inline-block;
+    width: 150px;
+    height: 80px;
+    background-image: url(../img/tesla.png);
+    background-size: contain;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -200px;
+}
+
+    .car
