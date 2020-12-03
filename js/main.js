@@ -1,5 +1,5 @@
-const car1 = document.querySelector(' .car1');
-const car2 = document.querySelector(' .car2');
+const car1 = document.querySelector('.car-1');
+const car2 = document.querySelector('.car-2');
 
 const models = ['bmw', 'ferrari', 'lambo', 'moscvich', 'tesla'];
 

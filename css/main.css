@@ -1,5 +1,5 @@
-body, 
-body {
+/* body,  */
+body * {
     margin: 0;
     padding: 0;
     vertical-align: top;
@@ -28,16 +28,16 @@ body {
 }
 
     .car[data-model="bmw"] {
-        background-image: url(../img/black\ car.png);
+        background-image: url(../img/bmw.png);
     }
     .car[data-model="ferrari"] {
-        background-image: url(../img/blue\ car.jpg);
+        background-image: url(../img/ferrari.png);
     }
     .car[data-model="lambo"] {
-        background-image: url(../img/Orange.png);
+        background-image: url(../img/lambo.png);
     }
     .car[data-model="moscvitch"] {
-        background-image: url(../img/redcar.jpeg);
+        background-image: url(../img/moscvich.png);
     }
     .car[data-model="tesla"] {
         background-image: url(../img/tesla.png);
@@ -64,10 +64,14 @@ body {
         .car.car-1::before {
             content: 'W';
         }
+    .car.car-2 {
+        top: 70vh;
+    }
         .car.car-2::before {
             content: 'P';
         }
-.line {
+
+        .line {
     display: inline-block;
     width: 50vh;
     height: 40px;
