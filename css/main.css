@@ -27,4 +27,66 @@ body {
     left: -200px;
 }
 
-    .car
+    .car[data-model="bmw"] {
+        background-image: url(../img/black\ car.png);
+    }
+    .car[data-model="bmw"] {
+        background-image: url(../img/blue\ car.jpg);
+    }
+    .car[data-model="bmw"] {
+        background-image: url(../img/Orange.png);
+    }
+    .car[data-model="bmw"] {
+        background-image: url(../img/redcar.jpeg);
+    }
+    .car[data-model="bmw"] {
+        background-image: url(../img/tesla.png);
+    }
+
+    .car::before {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        content: '';
+        position: absolute;
+        top: -20px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #fffc;
+        color: #000000;
+        font-size: 20px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .car.car-1 {
+        top: 40vh;
+    }
+        .car.car-1::before {
+            content: 'W';
+        }
+        .car.car-2::before {
+            content: 'P';
+        }
+.line {
+    display: inline-block;
+    width: 50vh;
+    height: 40px;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 35vh;
+    left: 190px;
+    transform-origin: top left;
+    border: 5px solid #fff;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    line-height: 30px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.line.finish {
+    left: calc(100% - 10px);
+    border-color: red;
+    color: red;
+}
