@@ -9,7 +9,7 @@ const finishWidth = 40;
 const finishRightSpace = 10;
 const carStep = 20;
 
-const finishPosition = windowWidth - carWidth - finishPosition - finishRightSpace;
+const finishPosition = windowWidth - carWidth - finishWidth - finishRightSpace;
 
 const car1Model = Math.floor(Math.random() * models.length);
 const car2Model = Math.floor(Math.random() * models.length);
@@ -24,7 +24,7 @@ car1.style.left = car1Position;
 car2.style.left = car2Position;
 
 addEventListener('keyup', event => {
-    const key =event.key;
+    const key = event.key;
     if (key === 'w') {
         car1Position += carStep;
         car1.style.left = car1Position + 'px';
@@ -34,7 +34,6 @@ addEventListener('keyup', event => {
 
         }
     }
-    const key =event.key;
     if (key === 'p') {
         car2Position += carStep;
         car2.style.left = car2Position + 'px';

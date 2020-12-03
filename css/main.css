@@ -30,16 +30,16 @@ body {
     .car[data-model="bmw"] {
         background-image: url(../img/black\ car.png);
     }
-    .car[data-model="bmw"] {
+    .car[data-model="ferrari"] {
         background-image: url(../img/blue\ car.jpg);
     }
-    .car[data-model="bmw"] {
+    .car[data-model="lambo"] {
         background-image: url(../img/Orange.png);
     }
-    .car[data-model="bmw"] {
+    .car[data-model="moscvitch"] {
         background-image: url(../img/redcar.jpeg);
     }
-    .car[data-model="bmw"] {
+    .car[data-model="tesla"] {
         background-image: url(../img/tesla.png);
     }
 
